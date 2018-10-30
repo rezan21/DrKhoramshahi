@@ -1,115 +1,37 @@
-/* services gets ugly at 1304 px*/
+/*
+// medium to large windows //
+*/
 
-/* @media only screen and (max-device-width: 820px) { */
-
-@media only screen and (max-width: 820px) {
-
-  #english body{
-      font-family: 'Montserrat', sans-serif;
+@media only screen and (max-device-width: 1200px), screen and (max-width: 1200px) {
+  #english {
+    font-family: 'Montserrat', sans-serif;
   }
-  body {
-    color: black;
-    font-size: 1.2rem;
+  .services_container {
+    grid-template-columns: 1fr 1fr;
   }
-  #odd, #even {
-    padding: 25px 0px;
-  }
-  .layout {
-    padding: 100px 0px;
-  }
-  .layout-mob {
-    padding: 0 25px;
-  }
-  /*starteddddddddddddddd ----------------------- */
-
-  header {
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.1)),to(rgba(0, 0, 0, 0.9))),url(../css/css-images/mob2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.9)),url(../css/css-images/mob2.jpg);
-    background-position:top;
-    background-size:cover;
-
-    height: 55vh;
-    position: relative;
-
-  }
-
   .logo {
     float: none;
   }
-
   .logo-wrapper {
-    position: absolute;
-    top: 50%;
-    left:5%;
-
-            -webkit-transform: translate(0, -50%);
-
-                    transform: translate(0, -50%);
-
-  }
-
-  #big-logo {
-    font-family: 'Righteous', cursive;
-    font-size: 281%;
-
-  }
-
-  #small-logo {
-    font-size: 141%;
-    position: absolute;
-
-  }
-
-  nav {
+    position: relative;
     text-align: center;
-    line-height: 100px;
-    float: right;
-    position: absolute;
-    top: 50%;
-    right:10%;
-    -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%);
-    font-size: 140%
   }
-
-  nav li {
-    display: block;
-    margin-left: 50px
+  #small-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 90px;
   }
-
-
-
-  #title {
-    display: none;
-
-  }
-
-  /*enddddddddddddddd ----------------------- */
-
-  .services_container {
-    display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-
-
-
-
-
-  #long-text {
-    font-size: 80%;
+  nav {
+    float: none;
+    text-align: center;
   }
   .about {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 2px red solid;
     border: none;
   }
-
   .about ul li {
     list-style: none;
   }
@@ -135,7 +57,6 @@
     grid-template-rows: auto;
     grid-gap: 100px
   }
-
   .address-one, .address-two {
     display: grid;
     grid-template-columns: 1fr;
@@ -143,10 +64,7 @@
     grid-gap: 20px;
     text-align: right
   }
-
-
-
-  .address-two{
+  .address-two {
     margin-top: 0px;
   }
   #map, #mapTwo {
@@ -155,6 +73,289 @@
   }
   .contact i {
     float: none;
+  }
+  #title {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    margin-top: 100px;
+  }
+}
 
+/* --------------------------------------------------------------------------------------------------------------------------------
+ * --------------------------------------------------------------------------------------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------------------- */
+
+/*
+// Small windows to medium //
+*/
+
+@media only screen and (max-device-width: 820px), screen and (max-width: 820px) {
+  body {
+    color: var(--main-text-color);
+    font-size: 1rem;
+  }
+  #odd, #even {
+    padding: 25px 0px;
+  }
+  .layout {
+    padding: 100px 0px;
+  }
+  .layout-mob {
+    padding: 0 25px;
+  }
+  header {
+    position: relative;
+    text-align: center;
+  }
+  .logo {
+    float: none;
+  }
+  .logo-wrapper {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  #small-logo {
+    font-size: 141%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #title {
+    display: none;
+  }
+  nav {
+    display: block;
+    float: none;
+    position: relative;
+    font-size: 140%;
+  }
+  nav ul {
+    display: block;
+  }
+  nav li {
+    display: block;
+    line-height: 40px;
+  }
+  #promotion {
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .social-media {
+    display: block;
+    position: relative;
+    border: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 0;
+    top: 0;
+    -webkit-transform: none;
+    transform: none;
+    font-size: 300%;
+    padding: 0 0;
+    margin-top: 100px;
+  }
+  .social-media li {
+    padding: 0;
+    display: inline-block;
+    margin: 0 70px;
+  }
+  .sticky .mob-bar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .sticky .mob-bar .mob-logo {
+    display: inline;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .sticky .mob-bar .mobile-nav-icon {
+    display: block;
+    text-align: right;
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .sticky ul li {
+    font-size: 1.5rem;
+  }
+  .sticky .mob-bar .mobile-nav-icon i {
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+  }
+  .sticky ul {
+    display: none;
+  }
+  .mob-bar a:hover, .mob-bar a:active, .mob-bar a:visited {
+    border: 0
+  }
+  .services_container {
+    grid-gap: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .pac {
+    display: none;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    padding: 0px 0px;
+  }
+  .footerMenu, .footerAddress, .footerSocialMedia, .footerContact {
+    padding: 10px;
+  }
+  .footerMenu {
+    background-color: rgba(111, 111, 111, 0.8);
+  }
+  .footerSocialMedia {
+    background-color: rgba(111, 111, 111, 0.1);
+  }
+  .footerContact {
+    background-color: rgba(111, 111, 111, 0.8);
+  }
+  .footerAddress {
+    background-color: rgba(111, 111, 111, 0.1);
+  }
+  footer li {
+    display: inline-block;
+    margin: 20px 20px;
+  }
+  .ligalstuff {
+    color: var(--main-text-color);
+    padding: 2px 2px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------
+ * --------------------------------------------------------------------------------------------------------------------------------
+ * -------------------------------------------------------------------------------------------------------------------------------- */
+
+/*Only Mobile phones*/
+
+@media only screen and (max-device-width: 650px) {
+  body {
+    color: black;
+    font-size: 1.5rem;
+  }
+  header {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.8))), url(/css/css-images/bg2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(/css/css-images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .logo-wrapper {
+    margin-top: 10px;
+  }
+  #big-logo {
+    font-size: 350%;
+  }
+  #small-logo {
+    font-size: 200%;
+  }
+  #mobile-list-item {
+    line-height: 100px;
+    font-size: 3rem;
+  }
+  #promotion {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .social-media {
+    font-size: 600%;
+    padding: 0 0;
+    margin-top: 500px;
+  }
+  .social-media i {
+    font-size: 7rem;
+  }
+  .sticky .mob-bar .mob-logo {
+    font-size: 3.1rem;
+    padding: 10px;
+  }
+  .sticky .mob-bar .mobile-nav-icon {
+    font-size: 4.5rem;
+    padding: 10px;
+  }
+  .sticky ul li {
+    font-size: 3rem;
+    line-height: 150px;
+  }
+  .social-media {
+    font-size: 300%;
+  }
+  .social-media a:hover, .social-media {
+    color: white;
+    -webkit-transition: none;
+    transition: none
+  }
+  nav a:hover {
+    border-bottom: transparent 2px solid;
+    border-bottom: none;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .fliper_tel {
+    line-height: 60px;
+    font-size: 1.5rem;
+  }
+  #english #long-text {
+    font-size: 70%;
+  }
+  #long-text {
+    font-size: 63%;
+  }
+  .mythis span {
+    font-size: 2rem;
+  }
+  #certificates a,#certificates a:link, #certificates a:visited{
+    color: var(--secondry-color);
+  }
+  #certificates a:hover, #certificates a:active{
+    color: var(--secondry-color);
+
+
+    -webkit-transition: none;
+
+
+    transition: none;
+  }
+  .footerMenu, .footerAddress, .footerSocialMedia, .footerContact {
+    padding-top: 30px;
+  }
+  footer a:hover, footer a:visited, footer a:link, footer a:active {
+    color: white;
+  }
+  footer div span i {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: var(--odd-section)
+  }
+  footer ul {
+    margin-top: 20px;
+  }
+  footer ol {
+    margin-top: 20px;
+  }
+  footer li {
+    font-size: 3rem;
+  }
+  .ligalstuff a, .ligalstuff a:hover, .ligalstuff a:active, .ligalstuff a:visited {
+    color: green;
+  }
+  #reza {
+    color: green;
   }
 }
