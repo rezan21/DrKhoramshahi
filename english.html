@@ -1,103 +1,123 @@
 <!-- Design and development by Reza N -->
 <!DOCTYPE html>
-<html lang="en" dir="ltr" id="english">
+<html lang="fa" dir="ltr">
 
 <head>
+
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <meta name="description" content="وبسایت دکتر هانی خرمشاهی. جراج-دندانپزشک">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/queries.css">
   <link rel="stylesheet" href="css/animate.css">
 
-  <title>Dr.Khoramshahi D.D.S</title>
+  <title>دندانپزشکی دکتر خرمشاهی</title>
+
 </head>
 
 <body>
 
   <header>
-    <!-- Logo -->
     <div class="layout layout-mob">
+
+      <!-- Logo -->
       <div class="logo-wrapper">
-        <div class="logo" id="big-logo">Dr Khoramshahi <span style="font-size:18px;">D.D.S</span></div>
-        <div class="logo" id="small-logo">Fellowship of Implants and Beauty</div>
+        <div class="logo" id="big-logo"><a href="index.html">Dr Khoramshahi <span style="font-size:18px;">D.D.S</span></a></div>
+        <div class="logo" id="small-logo">فلوشیپ ایمپلنت و زیبایی</div>
       </div>
       <!-- Logo ENDS -->
 
       <!-- navbar-->
       <nav>
-        <ul>
-          <li><a class="js--scroll-to-clinic" href="#clinic">Clinic</a></li>
-          <li><a class="js--scroll-to-services" href="#services">Services</a></li>
-          <li><a class="js--scroll-to-album" href="#album">Album</a></li>
-          <li><a class="js--scroll-to-contact" href="#contact">Contact</a></li>
-          <li><a href="index.html">Persian - فارسی</a></li>
+        <div class="mob-bar">
+          <span class="mob-logo" style="  font-family: 'Montserrat', sans-serif;
+">Dr Hani Khoramshahi</span>
+          <a class="mobile-nav-icon js--nav-icon"><i class="fas fa-bars "></i></a>
+        </div>
 
+        <ul>
+          <li id="mobile-list-item"><a class="js--scroll-to-clinic " href="#clinic">کلینیک</a></li>
+          <li id="mobile-list-item"><a class="js--scroll-to-services  " href="#services">خدمات</a></li>
+          <li id="mobile-list-item"><a class="js--scroll-to-album " href="#album">آلبوم</a></li>
+          <li id="mobile-list-item"><a class="js--scroll-to-contact " href="#contact">تماس</a></li>
+          <li id="mobile-list-item"><a class="" href="english.html">English</a></li>
         </ul>
+
+        <ul class="js--main-nav mobb">
+          <li><a class="js--scroll-to-clinic js--nav-close" href="#clinic">کلینیک</a></li>
+          <li><a class="js--scroll-to-services mob-clicked js--nav-close " href="#services">خدمات</a></li>
+          <li><a class="js--scroll-to-album mob-clicked js--nav-close" href="#album">آلبوم</a></li>
+          <li><a class="js--scroll-to-contact mob-clicked js--nav-close" href="#contact">تماس</a></li>
+          <li><a class="" href="english.html">English</a></li>
+        </ul>
+
       </nav>
       <!-- navbar ENDS -->
 
       <!-- title -->
       <h1 id="title">
-        Dr Khoramshahi, Doctor of Dental Surgery, Official Website.
+به وبسایت دکتر هانی خرمشاهی<br> جراج-دندانپزشک خوش آمدید
 		</h1>
+
     </div>
+
+    <!-- SOCIAL MEDIA -->
+    <section class="social-media">
+      <p id="promotion">برای اطلاع از اخرین مزایا، در شبکه های زیر ما را دنبال کنید</p>
+
+      <ul>
+        <li><a href="https://t.me/hanikhoramshahi" title="Join our Telegram Channel |کانال تلگرام" target="_blank"><i class="fab fa-telegram js--wp-5"> </i></a> </li>
+        <li><a href="https://www.instagram.com/dr.khoramshahi/" title="Visit Our Instagram | صفحه اینستاگرام" target="_blank"><i class="fab fa-instagram js--wp-5"> </i></a> </li>
+      </ul>
+    </section>
+    <!-- SOCIAL MEDIA ENDS-->
   </header>
 
-  <!-- SOCIAL MEDIA -->
-  <section class="social-media">
-    <ul>
-      <li><a href="https://t.me/hanikhoramshahi" title="Join our Telegram Channel" target="_blank"><i class="fab fa-telegram js--wp-5"> </i></a> </li>
-      <li><a href="https://www.instagram.com/dr.khoramshahi/" title="Visit Our Instagram" target="_blank"><i class="fab fa-instagram js--wp-5"> </i></a> </li>
-    </ul>
-  </section>
-  <!-- SOCIAL MEDIA ENDS-->
 
 
   <!-- CLINIC-->
-  <div id="odd">
-    <div id="clinic" class="js--section-clinic layout js--wp-1">
-      <h2 id="underlined"> Clinic</h2>
+  <div id="odd" class="js--section-clinic">
+    <div id="clinic" class=" layout js--wp-1 js--sticky ">
+      <h2 id="underlined"> کلینیک</h2>
       <div class="clinic">
         <div class="slideshow-wrapper">
           <!-- Slideshow container -->
           <div class="slideshow-container">
 
-            <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
               <div class="numbertext">1 / 6</div>
-              <img class="zoom" src="resources/images/clinic/clinic1.jpg">
-              <!-- <div class="text">Caption one</div> -->
+              <img alt="Clinic-Photo-1" class="zoom" src="resources/images/clinic/clinic1.jpg">
             </div>
 
             <div class="mySlides fade">
               <div class="numbertext">2 / 6</div>
-              <img class="zoom" src="resources/images/clinic/clinic2.jpg">
+              <img alt="Clinic-Photo-2" class="zoom" src="resources/images/clinic/clinic2.jpg">
             </div>
 
             <div class="mySlides fade">
               <div class="numbertext">3 / 6</div>
-              <img class="zoom" src="resources/images/clinic/clinic3.jpg">
+              <img alt="Clinic-Photo-3" class="zoom" src="resources/images/clinic/clinic3.JPG">
             </div>
 
             <div class="mySlides fade">
               <div class="numbertext">4 / 6</div>
-              <img class="zoom" src="resources/images/clinic/clinic4.jpg">
+              <img alt="Clinic-Photo-4" class="zoom" src="resources/images/clinic/clinic4.jpg">
             </div>
 
             <div class="mySlides fade">
               <div class="numbertext">5 / 6</div>
-              <img class="zoom" src="resources/images/clinic/clinic5.jpg">
+              <img alt="Clinic-Photo-5" class="zoom" src="resources/images/clinic/clinic5.jpg">
             </div>
 
             <div class="mySlides fade">
               <div class="numbertext">6 / 6</div>
-              <img class="zoom" src="resources/images/clinic/clinic6.jpg">
+              <img alt="Clinic-Photo-6" class="zoom" src="resources/images/clinic/clinic6.jpg">
             </div>
 
             <!-- Next and previous buttons -->
@@ -122,9 +142,8 @@
 
         </div>
         <div class="clinic-content layout-mob" style="text-align:center;">
-          <p>Dr. Khoramshahi is working in the clinics located in Pasdaran Avenue and Madani Street, Tehran, Iran.
-Both centers are equipped with the most advanced sterilization systems and all modern dental services are offered using modern devices, knowledge and experience of the dentist.
-Our main goal is to maintain your health and provide the highest quality of care</p>
+          <p>دکتر خرمشاهی در کلینک های واقع در خیابان پاسداران و خیابان مدنی مشغول به فعالیت هستند<br>هر دو مرکز مجهز به پیشرفته ترین سیستم های استریلیزاسیون می باشند و کلیه خدمات نوین دندانپزشکی با استفاده از دستگاه های مدرن، دانش و تجربه دندانپزشک ارائه
+            می گردد<br>مهمترین هدف ما حفظ سلامتی شما و ارائه بالاترین کیفیت درمانی است</p>
         </div>
       </div>
     </div>
@@ -133,99 +152,102 @@ Our main goal is to maintain your health and provide the highest quality of care
 
 
   <!--SERVICES-->
-  <div id="even">
-    <div id="services" class="js--section-services layout">
+  <div id="even" class="js--section-services">
+    <div id="services" class=" layout ">
 
-      <h2 id="underlined"> Services</h2>
+      <h2 id="underlined"> خدمات</h2>
       <div style="text-align:center">
-        <span class="layout-mob">At this center, examinations, counseling and treatment plans for all of the following services are free of charge by appointment
-</span>
+        <div class="layout-mob">
+          در این مرکز، معاینه، مشاوره و طرح درمان برای کلیه خدمات زیر، با تعیین وقت قبلی بصورت رایگان انجام می پذیرد
+        </div>
 
-        <!--restorative-->
         <div class="services_container js--wp-2">
 
+          <!--restorative-->
           <div class="service-wrapper">
-            <img src="resources/images/services/service-restorative.jpg" alt="">
+            <img src="resources/images/services/service-restorative.jpg" alt="Service_Restorative">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Restorative</h3>
+              <h3 id="underlined">ترمیمی</h3>
               <p>
-In the past, the concept of restorative was just filling the tooth, but today it means restoring and restoring the structure and natural appearance of the tooth. To this end, it is necessary to have new, high quality and tooth-colored materials and, on the other hand, to attend additional beauty courses
+                مفهوم ترمیمی در گذشته تنها پر کردن دندان بود، اما امروزه به معنای هنر بازسازی و برگرداندن ساختار و نمای طبیعی دندان است. برای این منظور داشتن مواد جدید، با کیفیت و همرنگ دندان و از طرفی حضور در دوره های تکمیلی زیبایی الزامی است
+
               </p>
             </div>
           </div>
 
           <!--implant-->
           <div class="service-wrapper">
-            <img src="resources/images/services/service-implant.jpg" alt="">
+            <img src="resources/images/services/service-implant.jpg" alt="Service_Implant">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Implant</h3>
+              <h3 id="underlined">ایمپلنت</h3>
               <p>
-                The best replacement for missing teeth is implant. Dr. Khoramshahi has been active in this field since participating in valid courses and having multiple degrees since 2007, and with the introduction of thousands of implants with great expertise in this field
+                بهترین جایگزین برای دندانهای از دست رفته ایمپلنت است. دکتر خرمشاهی با شرکت در دوره های معتبر و داشتن مدارک متعدد از سال ۱۳۸۶ بصورت فعال وارد این رشته شده است و با کار گذاشتن هزارها ایمپلنت دارای تبحر زیادی در این زمینه هستند
               </p>
             </div>
           </div>
 
           <!--laminate-->
           <div class="service-wrapper">
-            <img src="resources/images/services/service-laminate.jpg" alt="">
+            <img src="resources/images/services/service-laminate.jpg" alt="Service_Laminate">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Laminate</h3>
+              <h3 id="underlined">لمینت</h3>
               <p>
-Laminate is the most beautiful dentistry treatment that is made using advanced technology of thin sheet of porcelain and adheres to the tooth surface to create a beautiful smile              </p>
+                لمینت زیباترین درمان در دندانپزشکی است که بااستفاده از تکنولوژی های پیشرفته ورقه های نازک از پرسلن ساخته شده و به سطح دندان می چسبد تا لبخند بسیار زیبا بیافریند
+              </p>
             </div>
           </div>
 
           <!--composite-veneers-->
           <div class="service-wrapper">
-            <img src="resources/images/services/service-veneers.jpg" alt="">
+            <img src="resources/images/services/service-veneers.jpg" alt="Service_Veneers">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Venier Composite</h3>
+              <h3 id="underlined">کامپوزیت ونیر</h3>
               <p>
-An affordable way to create a Hollywood smile and the creation of natural teeth that is heavily dependent on art, experience and quality materials. See the section of the album to see the portfolio
+                روشی مقرون به صرفه جهت خلق لبخند هالیوودی و آفرینش دندانهای طبیعی که به شدت به هنر، تجربه و مواد باکیفیت وابسته است. جهت دیدن نمونه کارها به قسمت آلبوم مراجعه کنید
               </p>
             </div>
           </div>
 
           <!--perio-->
           <div class="service-wrapper">
-            <img src="resources/images/services/service-perio.jpg" alt="">
+            <img src="resources/images/services/service-perio.jpg" alt="Service_Perio">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Perio</h3>
-              <p>
-                A discipline of dentistry that deals with gum care and treatment. This section focuses on the prevention of gum disease. All patients undergo oral and dental health education and, if necessary, periodic examinations and timely scaling of gum disease are prevented. In the event of a disease, advanced gum surgery can be done at the center
-              </p>
+              <h3 id="underlined">پریو</h3>
+              <p>رشته ای از دندانپزشکی است که به مراقبت و درمان لثه می پردازد. در این قسمت تأکید بر پیشگیری از بیماری لثه است. کلیه بیماران تحت آموزش بهداشت دهان و دندان قرار می گیرند و در صورت لزوم با معاینه های دوره ای و جرم گیری بموقع از بروز بیماری های
+                لثه جلوگیری می شود. در صورت بروز بیماری، جراحی های پیشرفته لثه در این مرکز قابل انجام است</p>
             </div>
           </div>
 
           <!--canal-treatment-->
           <div class="service-wrapper">
-            <img src="resources/images/services/service-canal-treatment.jpg" alt="">
+            <img src="resources/images/services/service-canal-treatment.jpg" alt="Service_Endo">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Endo</h3>
+              <h3 id="underlined">اندو</h3>
               <p>
-                Nasal irradiation and root canal treatment are essential when caries get to the brain and root of the tooth. All root treatments are provided at the center with advanced devices and new technology
+                هنگامی که پوسیدگی به مغز و ریشه ی دندان می رسد انجام عصب کشی و درمان ریشه الزامیست. در این مرکز کلیه درمان های ریشه با دستگاه های پیشرفته و تکنولوژی جدید انجام می شود
               </p>
             </div>
           </div>
 
           <!--ortodoncia-->
           <div class="service-wrapper orth">
-            <img src="resources/images/services/service-ortodencia.png" alt="">
+            <img src="resources/images/services/service-ortodencia.png" alt="Service_Orthodencia">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Orthodontic</h3>
+              <h3 id="underlined">ارتودنسی</h3>
               <p>
-The orthodontic in this center is done in two moving and fixed ways. The best treatment age is after 12 years of age, but sometimes some measures are required at the age of 7 years. Having regular teeth at any age is possible that we provide for you
+                ارتودنسی در این مرکز به دو روش متحرک و ثابت انجام می پذیرد. بهترین سن درمان بعد از ۱۲ سالگی است اما گاهی برخی اقدامات از سن ۷ سالگی الزامی است. داشتن دندان های مرتب در هر سنی امکان پذیر است که ما آن را برای شما فراهم میکنیم
+
               </p>
             </div>
           </div>
 
           <!--prothesis-->
           <div class="service-wrapper">
-            <img src="resources/images/services/service-prothesis.png" alt="">
+            <img src="resources/images/services/service-prothesis.png" alt="Service_Prothesis">
             <div class="service-text layout-mob">
-              <h3 id="underlined">Prosthesis</h3>
+              <h3 id="underlined">پروتز</h3>
               <p>
-In this section, using German and Swiss bursaries and LED turbines, the subcutaneous shiny finishes are sharpened with minimal damage to the teeth, and the Feldspathic, E-Max and Zirconia beadings are made. Cooperates with the most reputable Iranian labs to provide coatings
+                در این قسمت بااستفاده از فرزهای آلمانی و سویسی و توربین های ال ای دی دار، زیر ذره بین تراش های ظریف و دقیق با کمترین آسیب به دندان داده شده و روکش های زیبایی فلدسپاتیک، ای مکس و زیرکنیا ساخته می شوند. برای تهیه روکش ها با معتبر ترین لابراتورهای  ایران همکاری می شود
               </p>
             </div>
           </div>
@@ -237,15 +259,12 @@ In this section, using German and Swiss bursaries and LED turbines, the subcutan
   </div>
   <!--SERVICES ENDS-->
 
-  <div id="odd">
-    <div id="album" class="js--section-album layout js--wp-3">
+  <div id="odd" class="js--section-album">
+    <div id="album" class=" layout js--wp-3">
 
-      <h2 id="underlined"> Album</h2>
+      <h2 id="underlined"> آلبوم</h2>
       <div style="text-align:center;">
-        <span class="layout-mob">
-          To read the description for each photo, click on it
-
-        </span>
+        <span class="layout-mob">برای خواندن توضیحات مربوط به هر عکس، روی آن کلیک کنید</span>
       </div>
 
       <div class="album">
@@ -257,113 +276,11 @@ In this section, using German and Swiss bursaries and LED turbines, the subcutan
             <div class="card">
 
               <div class="front">
-                <img src="resources/images/album/album1.jpg" alt="">
+                <img  src="resources/images/album/album1.jpg" alt="Album_Picture_1">
               </div>
 
               <div class="back">
-Full teeth make the faces fall off and get older. Replacing all the teeth with the implant, in addition to returning the chewing action, will make the face younger years old            </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album2.jpg" alt="">
-              </div>
-
-              <div class="back">
-Today, tooth repair is the rehabilitation of the natural form of the tooth, which is possible with the advancement of materials and knowledge of their application              </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album3.jpg" alt="">
-              </div>
-
-              <div class="back">
-A patient that for years, due to irregular teeth, prevents her laugh, now laughs beautifully              </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album3s.jpg" alt="">
-              </div>
-
-              <div class="back">
-Replacing the missing teeth with the implant and returning a beautiful smile to the patient. Do you know smiling will increase your positive energy and confidence?              </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album4.jpg" alt="">
-              </div>
-
-              <div class="back">
-Aesthetic restoration, that is, mirroring and restoring natural appearance to the patient. Photographs are not retouched              </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album5.jpg" alt="">
-              </div>
-
-              <div class="back">
-Putting an implant without surgery is sometimes possible              </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album6.jpg" alt="">
-              </div>
-
-              <div class="back">
-              Contact numbers <br><a class="social_link_B"  href="tel:++982177553265">+98 21 7755 3265 </a>    |   <a class="social_link_B" href="tel:+982126710722">+98 21 26710 722</a>
+                بى دندانى كامل باعث افتادگى لبها و پيرتر شدن چهره مى گردد. جايگزينى همه دندانها با ايمپلنت علاوه بر برگرداندن عمل جويدن، چهره را چندين سال جوانتر مى كند
               </div>
 
             </div>
@@ -377,45 +294,11 @@ Putting an implant without surgery is sometimes possible              </div>
             <div class="card">
 
               <div class="front">
-                <img src="resources/images/album/album7.jpg" alt="">
+                <img  src="resources/images/album/album2.jpg"  alt="Album_Picture_2">
               </div>
 
               <div class="back">
-Always replace missing teeth to prevent furthur damage              </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album8.jpg" alt="">
-              </div>
-
-              <div class="back">
-With good knowledge and skill, after 6 months, gingival surgery, implant, lining and lining was a good and desirable result. Photographs are not retouched              </div>
-
-            </div>
-          </label>
-        </div>
-        <!--album child ends-->
-
-        <div class="album_child">
-          <label>
-            <input type="checkbox"  />
-            <div class="card">
-
-              <div class="front">
-                <img src="resources/images/album/album9.jpg" alt="">
-              </div>
-
-              <div class="back">
-                Reconstruction and smile design is our specialty
+                امروزه ترميم دندان هنر بازسازى شكل طبيعى دندان است كه با پيشرفت مواد و دانش بكارگيرى آنها امكان پذير است
               </div>
 
             </div>
@@ -429,11 +312,156 @@ With good knowledge and skill, after 6 months, gingival surgery, implant, lining
             <div class="card">
 
               <div class="front">
-                <img src="resources/images/album/album10.jpg" alt="">
+                <img   src="resources/images/album/album3.jpg" alt="Album_Picture_3">
+              </div>
+
+              <div class="back">
+                بيماري كه سالها بعلت نامرتبى دندانها جلوى خنده خود را مى گرفت، حال از ته دل بسيار زيبا مى خندد
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img   src="resources/images/album/album3s.jpg" alt="Album_Picture_4" >
+              </div>
+
+              <div class="back">
+                جايگزينى دندان از دست رفته با ايمپلنت و باز گرداندن لبخند زيبا به بيمار. آيا ميدانيد لبخند زدن باعث افزايش انرژى مثبت و اعتماد بنفس شما مى شود
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img   src="resources/images/album/album4.jpg" alt="Album_Picture_5">
+              </div>
+
+              <div class="back">
+                ترميم زيبايي يعنى قرينه سازى و باز گرداندن نماى طبيعي به بيمار. عكسها بدون روتوش است
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img  src="resources/images/album/album5.jpg" alt="Album_Picture_6">
+              </div>
+
+              <div class="back">
+                گذاشتن ايمپلنت بدون جراحى، گاهى امكانپذير است
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img   src="resources/images/album/album6.jpg" alt="Album_Picture_7">
+              </div>
+
+              <div class="back">
+                شماره های تماس <br><a class="social_link_B fliper_tel"  href="tel:++982177553265">۰۲۱ - ۷۷۵۵ ۳۲۶۵</a>    <br><br>   <a class="social_link_B fliper_tel" href="tel:+982126710722">۰۲۱ - ۲۶۷۱۰ ۷۲۲</a>
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img   src="resources/images/album/album7.jpg" alt="Album_Picture_8">
+              </div>
+
+              <div class="back">
+                دندان هاى از دست رفته را هميشه جايگزين كنيد تا از آسيب مفصل فكى وسيستم جونده گى جلوگيرى نماييد
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img   src="resources/images/album/album8.jpg" alt="Album_Picture_9">
+              </div>
+
+              <div class="back">
+                با دانش و مهارت كافى، پس از 6 ماه و انجام جراحى لثه، ايمپلنت، روكش و لمينيت، نتيجه مطلوب و دلپذير حاصل گرديد. عكسها بدون روتوش مى باشد
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img   src="resources/images/album/album9.jpg" alt="Album_Picture_10">
+              </div>
+
+              <div class="back">
+                باز سازى و طراحى لبخند تخصص ماست
+              </div>
+
+            </div>
+          </label>
+        </div>
+        <!--album child ends-->
+
+        <div class="album_child">
+          <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+              <div class="front">
+                <img   src="resources/images/album/album10.jpg" alt="Album_Picture_11">
               </div>
 
               <div class="back" id="long-text">
-The patient was introduced to Dr. Khoramshahi's clinic for the beauty of the tooth. He offered eight teeth to lignite (in other offices), which was a heavy cost. After the examination and evaluation by Dr. Khoramshahi, a gentle treatment plan was performed for them: first two orthodontic teeth were brought together and only two veneers of the composite of the lateral teeth achieved a desirable and unbelievable result that made us happy and patient              </div>
+                بيمار جهت زيبايي دندان به كلينيك دكتر خرمشاهى معرفى شده. به او پيشنهاد ٨ دندان لمينيت داده بودند(در مطب هاى ديگر) كه هزينه سنگينى در بر داشت. پس از معاينه و ارزيابى توسط دكتر خرمشاهى، طرح درمان خلاقاته براى ايشان انجام شد: ابتدا دو دندان وسط توسط ارتودنسی به هم نزديك شد و تنها با دو ونير كامپوزيت دندان هاى كنارى به نتيجه مطلوب و باورنكردنى دست يافتیم كه باعث رضايت و بهت بيمار گرديد
+              </div>
 
             </div>
           </label>
@@ -446,11 +474,12 @@ The patient was introduced to Dr. Khoramshahi's clinic for the beauty of the too
             <div class="card">
 
               <div class="front">
-                <img src="resources/images/album/album12.jpg" alt="">
+                <img   src="resources/images/album/album12.jpg" alt="Album_Picture_12">
               </div>
 
               <div class="back">
-The most beautiful dentistry treatment is laminate              </div>
+                لمينيت زيباترين درمان دندانپزشكى
+              </div>
 
             </div>
           </label>
@@ -464,30 +493,31 @@ The most beautiful dentistry treatment is laminate              </div>
   </div>
 
   <!--section ABOUT/CONTACT-->
-  <div id="even">
-    <div id="" class=" about layout js--wp-4" style="text-align:left">
+  <div id="even" class="js--section-contact">
+    <div id="" class=" about layout js--wp-4">
 
       <!--doctor section is the left side-->
       <div class="doctor contact ">
-        <div class="doc-wrapper js--section-contact">
-          <img src="resources/images/contact/profile.png" alt="Dr Hani Khoramshahi">
-          <h2>Dr Hani Khoramshahi</h2>
+        <div class="doc-wrapper ">
+          <img src="resources/images/contact/profile.png" alt="Profile_Picture">
+          <h2>دکتر هانی خرمشاهی</h2>
         </div>
-        <div class="mythis layout-mob" style="text-align:left; padding-right:40px;">
+        <div class="mythis layout-mob" style="text-align:right; padding-right:40px;">
           <span style="margin-bottom:30px;">
-            Dr. Hani Khorramshahi graduated from Tehran University in 1997, and since then he has treated more than thousands of patients. He is always looking to learn new materials and companies during graduation classes and attending national and international congresses. His highest goal is the satisfaction of the visitors, the provision of successful and inexpensive treatments, and the creation of a beautiful smile
+            دکترهانی خرمشاهی درسال ۱۳۷۵ از دانشگاه تهران فارغ التحصیل شد و از آن زمان تاکنون بیش ازده هزار بیمار را درمان کرده است. ایشان همیشه به دنبال آموختن مطالب نوین وشرکت دردوره های تکمیلی و حضور در کنگره های تخصصی داخلی و بین المللی هستند. بالاترین هدف او رضایت مراجعه کنندگان، ارائه درمان های موفق و
+ارزان و آفرینش لبخند زیباست
           </span>
-          <ul>
+          <ul style="list-style:none;">
             <li>
-              Member of Dental XP United States
+              عضو انجمن <span> Dental XP</span> امریکا
             </li>
             <li>
-              Plug-in implant C.Puls USA
+              دارای فلوشیپ ایمپلت <span> C.Puls</span> امریکا
             </li>
             <li>
-              With UltraDent America beauty blend
+              دارای فلوشیپ زیبایی <span> Ultradent</span> امریکا
             </li>
-            <li> Has more than dozens of other specialized degrees from prestigious internal and external centers
+            <li id="certificates"> <a href="certificates.pdf" target="_blank" title="براای مشاهده این مدارک کلیک کنید">دارای بیش از ده ها مدرک تخصصی دیگر از مراکز معتبر داخلی و خارجی</a>
             </li>
           </ul>
 
@@ -500,30 +530,29 @@ The most beautiful dentistry treatment is laminate              </div>
       <div id="contact" class="contact">
         <div class="contact-header">
           <i class="fas fa-map-marker-alt"></i>
-          <h2>Contact</h2>
+          <h2>تماس</h2>
         </div>
         <div class="map-address">
           <div class="address-one">
             <div id="map"> </div>
-            <div class="layout-mob" style="text-align:left">
-              Address 1:<br> Tehran - Shaheed Madani - Below Sabalan - Corner of Assets - No. 819
+            <div class="layout-mob">
+              :۱ آدرس<br> تهران - خ شهید مدنی - پایین تر از سبلان - نبش دارایی - پلاک۸۱۹
               <div class="telephone_number">
-                Phone:<br>
-                <a class="social_link" title=" Call Now " href="tel:+982177553265">+98 21 7755 3265</a>
+                :تلفن<br>
+                <a class="social_link" title=" تماس " href="tel:+982177553265">۰۲۱ - ۷۷۵۵ ۳۲۶۵</a>
               </div>
             </div>
           </div>
 
           <div class="address-two">
-            <!-- COMBAK: use google API for map instead of an image! -->
             <div id="mapTwo"></div>
 
-            <div class="address-right-part layout-mob" style="min-width:150px;text-align:left">
-              Address 2:<br>Pasdaran Address - Dashtestan II - No. 4 - Unit 1
+            <div class="address-right-part layout-mob" style="min-width:150px;">
+              :۲ آدرس<br>تهران - پاسداران - دشتستان دوم - پلاک ۴ - واحد ۱
 
               <div class="telephone_number">
-                Phone:<br>
-                <a class="social_link" title=" Call Now " href="tel:+982126710722">+98 21 26710 722</a>
+                :تلفن<br>
+                <a class="social_link" title=" تماس " href="tel:+982126710722">۰۲۱ - ۲۶۷۱۰ ۷۲۲</a>
               </div>
             </div>
           </div>
@@ -538,23 +567,63 @@ The most beautiful dentistry treatment is laminate              </div>
   <!-- FOOTER -->
   <footer>
 
-    <div class="copy-right">Designed by : <a class="social_link" href="https://uk.linkedin.com/in/rezanaghshineh" title="Contact Developer" target="_blank">Reza N</a> | All rights reserved &copy; 2018 </div>
-
-    <div class="right-side-footer">
-      <div class="telephone_number">
-        <div style="display:inline; margin-right:10px;" class="socialmedia-footer">
-          <i class="fab fa-telegram"></i> <a class="social_link" href="https://t.me/hanikhoramshahi" title="Join our Telegram Channel |کانال تلگرام" target="_blank">TELEGRAM</a>
-          <i class="fab fa-instagram"></i> <a class="social_link" href="https://www.instagram.com/dr.khoramshahi/" title="Visit Our Instagram | صفحه اینستاگرام" target="_blank">INSTAGRAM</a>
-        </div>
-        <a class="social_link" title=" تماس " href="tel:+982177553265">۰۲۱ - ۷۷۵۵ ۳۲۶۵</a> تلفن
+    <div class="footerMenu">
+      <div>
+        <span><i class="fas fa-sitemap"></i></span><br>منو
       </div>
-      دندانپزشکی دکتر هانی خرمشاهی | تهران - خ شهید مدنی - پایین تر از سبلان - نبش دارایی - پلاک۸۱۹
+      <ul>
+        <li><a class="js--scroll-to-clinic " href="#clinic">کلینیک</a></li>
+        <li><a class="js--scroll-to-services  " href="#services">خدمات</a></li>
+        <li><a class="js--scroll-to-album " href="#album">آلبوم</a></li>
+        <li><a class="js--scroll-to-contact " href="#contact">تماس</a></li>
+        <li><a class="" href="english.html">English</a></li>
+      </ul>
     </div>
+
+
+    <div class="footerSocialMedia">
+      <div>
+        <span><i class="fas fa-arrow-circle-down"></i></span> <br> عضو شبکه های اجتماعی ما شوید
+      </div>
+      <ul>
+        <li> <a class="" href="https://t.me/hanikhoramshahi" target="_blank"> <i class="fab fa-telegram"> </i> عضو کانال تلگرام شوید </a> </li>
+        <li> <a href="https://www.instagram.com/dr.khoramshahi" target="_blank"> <i class="fab fa-instagram"></i> در اینستاگرام ما را دنبال کنید</a> </li>
+      </ul>
+    </div>
+
+
+    <div class="footerContact">
+      <div>
+        <span><i class="fas fa-phone-square"></i></span><br> شماره های مطب برای نوبت گیری
+      </div>
+      <ul>
+        <li> <a title=" Call Now " href="tel:+982126710722">۰۲۱ - ۲۶۷۱۰ ۷۲۲</a> </li>
+        <li> <a title=" Call Now " href="tel:+982177553265">۰۲۱ - ۷۷۵۵ ۳۲۶۵</a> </li>
+      </ul>
+    </div>
+
+
+    <div class="footerAddress">
+      <div>
+        <span><i class="fas fa-map-pin"></i></span><br>آدرس
+      </div>
+      <ol style="list-style:none;">
+        <li>تهران - خ شهید مدنی - پایین تر از سبلان - نبش دارایی - پلاک۸۱۹</li>
+        <li>تهران - پاسداران - دشتستان دوم - پلاک ۴ - واحد ۱</li>
+      </ol>
+    </div>
+
   </footer>
+
+  <div class="ligalstuff">
+    <div><i class="fas fa-code" style="color:green"> </i> Designed by : <a id="reza" href="https://uk.linkedin.com/in/rezanaghshineh" title="Contact Developer" target="_blank">Reza N</a> | All rights reserved &copy; 2018 </div>
+  </div>
   <!-- FOOTER ENDS-->
 
-
   <!-- ******** \\\\JS//// ******** -->
+
+
+
   <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -621,32 +690,30 @@ The most beautiful dentistry treatment is laminate              </div>
     }
   </script>
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script> -->
+
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_ARVdJXYQ_hmeK031cHXgjqUQzaP7BTE&callback=initMap"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127669864-1"></script>
+  <script src="jquery.waypoints.min.js"></script>
 
-    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-    <script src="jquery.waypoints.min.js"></script>
-    <script src="script.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_ARVdJXYQ_hmeK031cHXgjqUQzaP7BTE&callback=initMap"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127669864-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script src="script.js"></script>
 
-      gtag('config', 'UA-127669864-1');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-127669864-1');
+  </script>
 
 </body>
-
-
-
 </html>
