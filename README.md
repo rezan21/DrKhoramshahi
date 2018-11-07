@@ -2,7 +2,7 @@
 This is a responsive static website written in HTML 5 for Dr Khoramshahi, a dentist, and their dental clinic, based in Tehran, Iran.
 To view the website with the English content, Please navigate to ../english.html
  # After Downloading the repository make sure to unzip/extract the .zip file
-
+![](Dental_Clinic_project.png) 
 Designed with pure CSS. The layout is formed by CSS GRID where possible, to avoid floating elements problems. e.g:clearfix
 
 "CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. — Chris House"https://www.chris.house
