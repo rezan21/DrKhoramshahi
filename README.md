@@ -1,7 +1,7 @@
 
 ![](Dental_Clinic_Project.jpg) 
 
-This is a Fully-Responsive static website written in HTML 5 for Dr Khoramshahi, a dentist, and their dental clinic, based in Tehran, Iran.
+This is a Fully-Responsive static website written in HTML 5,CSS3 and JavaScript for Dr Khoramshahi, a dentist, and their dental clinic, based in Tehran, Iran.
 
 Website is deployed on a server and accessible on https://drkhoramshahi.com/english.html
 
